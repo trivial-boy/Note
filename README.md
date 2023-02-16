@@ -1,3 +1,7 @@
+---
+title: 'Hidden Post'
+hidden: true
+---
 # Note
 Hi friend !👋，我是一个普普通通的程序猿，这是我的个人学习笔记仓库, 我会将平时积累的笔记上传到该仓库中。  
 这个仓库的笔记会同步到我的博客网站 www.trivial.top。   
