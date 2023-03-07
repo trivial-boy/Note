@@ -242,7 +242,8 @@ public @interface EnableScheduling {}
 @Retention( RetentionPolicy.RUNTIME)@Documented
 @Inherited
 @AutoConfigurationPackage
-@Import(AutoConfigurationImportSelector.class)public @interface EnableAutoConfiguration
+@Import(AutoConfigurationImportSelector.class)
+public @interface EnableAutoConfiguration
 ```
 
 不过，不管AutoConfigurationImportSelector 是什么，他一定会实现配置类的导入，至于具体的实现方式，还需要我们继续分析。
